@@ -6,10 +6,12 @@ body{
     display: flex;
     height: 100vh; 
     margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
 }
 
 h1{
-    color: white;
+
     font-size: 300%;
     height: fit-content;
     text-align: center;
@@ -30,7 +32,13 @@ h1{
 }
 
 
-
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
 
 
 @keyframes rainbow-slide {
